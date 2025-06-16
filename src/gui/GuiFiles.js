@@ -40,7 +40,7 @@ class GuiFiles {
     menu.addButton(TR('fileExportSTL'), this, 'saveFileAsSTL');
     menu.addCheckbox('OBJ color zbrush', this, '_objColorZbrush');
     menu.addCheckbox('OBJ color append', this, '_objColorAppended');
-    menu.addButton(TR('sketchfabTitle'), this._ctrlGui, 'exportSketchfab');
+    // menu.addButton(TR('sketchfabTitle'), this._ctrlGui, 'exportSketchfab');
 
     // export texture
     menu.addTitle(TR('fileExportTextureTitle'));
